@@ -8,13 +8,13 @@ from urllib.parse import quote
 import time
 
 # 1. CONFIGURACIÓN E IDENTIDAD
-st.set_page_config(page_title="Portal Escolar 6°B Urb. 690", layout="centered")
+st.set_page_config(page_title="Portal Escolar 4° Urb. 1115", layout="centered")
 
-NOMBRE_MAESTRO = "Profr. Francisco González"
+NOMBRE_MAESTRO = "Profr. Felipe González"
 
 # MEJORA 1: Seguridad de la contraseña usando st.secrets (con un valor por defecto si no está configurado)
 # Para desarrollo local, crea un archivo en .streamlit/secrets.toml con: PASS_MAESTRO = "TuContraseñaSegura"
-PASS_MAESTRO = st.secrets.get("PASS_MAESTRO", "6B2026") 
+PASS_MAESTRO = st.secrets.get("PASS_MAESTRO", "4A2526") 
 
 URL_ESCUDO = "https://raw.githubusercontent.com/franciscogonzalezsjalisco/portal-escolar-6b/main/ESCUDO%20690%20(1).png"
 URL_FONDO = "https://raw.githubusercontent.com/franciscogonzalezsjalisco/portal-escolar-6b/main/6b.png"
